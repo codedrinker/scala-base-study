@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="scala-base-study$sbt_2.10"
+		revision="1.0"
+		status="integration"
+		publication="20140929085450"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.0" conf="default->default(compile)"/>
+		<dependency org="org.jetbrains" name="sbt-structure" rev="2.3.2" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
+		<dependency org="org.xerial.sbt" name="sbt-pack" rev="0.6.2" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
+		<dependency org="org.fusesource.scalate" name="scalate-core_2.10" rev="1.6.1" conf="default->default(compile)"/>
+		<dependency org="org.fusesource.scalate" name="scalate-util_2.10" rev="1.6.1" conf="default->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="default->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.0" conf="default->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.0" conf="default->default(compile)"/>
+		<dependency org="org.kamranzafar" name="jtar" rev="2.2" conf="default->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-nop" rev="1.7.5" conf="default->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="default->default(compile)"/>
+		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.6.0" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
+		<dependency org="commons-io" name="commons-io" rev="2.0.1" conf="default->default(compile)"/>
+	</dependencies>
+</ivy-module>

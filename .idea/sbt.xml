@@ -11,6 +11,10 @@
           </set>
         </option>
       </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/deepin" />
+      </SbtProjectSettings>
     </option>
   </component>
 </project>

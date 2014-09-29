@@ -1,4 +1,3 @@
-MyScala
+scala-base-study
 =======
-
-My Scala
+scala base study gen with many different modules
