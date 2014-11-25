@@ -17,3 +17,12 @@ project/plugins/project/
 .worksheet
 .idea
 .idea_modules
+
+project/target/*
+
+
+deepin/project/*
+
+official/project/*
+
+danielwestheide/project/*
